@@ -1,0 +1,17 @@
+{
+  "name": "requirejs",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "zodiacbalance <zodiacweight@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
