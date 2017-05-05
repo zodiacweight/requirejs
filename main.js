@@ -24,3 +24,20 @@ require(['scripts/common', 'scripts/casual', 'scripts/required'], function(commo
             }
         }, delay);
 });
+
+/*
+// файл экспортирующий модуль
+ var getHello = function () {
+    return 'Hello World, you are a ';
+};
+
+module.exports = {
+    getHelloFunc: getHello
+}
+
+-------------------------------------------
+// файл, загружающий (импортирующий) модуль
+var commonMod = require('scripts/common');
+commonMod.getHelloFunc();
+
+ */
