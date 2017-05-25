@@ -1,4 +1,4 @@
-define(['scripts/subdued'],function (subdued) {
+/*define(['scripts/subdued'],function (subdued) {
     console.log('subdued: %c'+subdued, 'color:orange');
     return {
         getHello: function () {
@@ -6,4 +6,4 @@ define(['scripts/subdued'],function (subdued) {
         },
         subdued:subdued
     };
-});
+}); */
