@@ -1,10 +1,12 @@
-define(function () {
+/*define(function(){
+    var myBoy="Jake";
     return {
-        suit: 'armor',
-        vehicle: 'Shuttle',
-        food: 'potato',
-        getStuff: function(stuffName){
-            return this[stuffName];
+        askBoy: function(){
+            console.log("What is your name, guy?");
+        },
+        getAnswer: function () {
+            console.log("My name is "+askBoy);
         }
-    };
-});
+        
+    }
+}); */

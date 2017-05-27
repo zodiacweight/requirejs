@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <!--  -->
     <link rel="stylesheet" href="node_modules/bootstrap-grid-only/bootstrap.css"/>
-    <!--<script data-main="main" src="bower_components/requirejs/require.js"></script>--> 
+    <script data-main="main" src="bower_components/requirejs/require.js"></script> 
     <script src="node_modules/underscore/underscore-min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/backbone/backbone-min.js"></script>
@@ -14,19 +14,5 @@
 <body>
 <h3 id="main-header">RequireJS</h3>
 <main></main>
-<script src = "node_modules/systemjs/dist/system.js"></script>
-<script>
-    // configure systemJS 
-    System.config({
-        meta: {
-            format: 'cjs'  //cjs refers to CommonJS format
-        }
-    });
-    System.import('scripts/script2.js');  // файл script2 - точка сборки, файл, импортирующий данные из
-    // других скриптов
-</script>
-<!--<script src="scripts/script1.js" type="text/javascript"></script>
-<script src="scripts/script2.js" type="text/javascript"></script>
-<script src="scripts/common.js" type="text/javascript"></script>-->
 </body>
 </html>

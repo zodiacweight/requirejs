@@ -1,7 +1,6 @@
 require(['scripts/common', 'scripts/casual', 'scripts/required'], function(common, casual, reqiured){
-
     console.log({'common':common, casual:casual});
-    var content=[],
+    /*var content=[],
         main = document.querySelector('main'),
         delay = 1000;
     for(var item in casual){
@@ -22,7 +21,7 @@ require(['scripts/common', 'scripts/casual', 'scripts/required'], function(commo
                     main.innerHTML+=reqiured.getHello();
                 }, delay);
             }
-        }, delay);
+        }, delay); */
 });
 
 /*

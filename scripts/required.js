@@ -1,15 +1,15 @@
-define(function (require) {
-    var slave = require('scripts/slave'),
+define(function () {
+   /* var slave = require('scripts/slave'),
         peasant = require('scripts/peasant');
     console.log({
         slave:slave,
         peasant:peasant
-    });
+    }); */
+    var myBabe="Candy";
     return {
-        getHello: function () {
-            return 'Here are: '+slave.who+' and '+peasant;
+        words: function () {
+            return 'Here are: '+myBabe+' and '+peasant;
         },
-        slave:slave,
-        peasant:peasant
-    };
-});
+        myBabe:myBabe
+    }; 
+}); /**/

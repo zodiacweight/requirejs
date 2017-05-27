@@ -1,9 +1,8 @@
-/*define(['scripts/subdued'],function (subdued) {
-    console.log('subdued: %c'+subdued, 'color:orange');
+define(function(){
+    var myFriend="Kira";
     return {
-        getHello: function () {
-            return 'Hello World, you are a ';
-        },
-        subdued:subdued
-    };
-}); */
+        talkMyFriend: function(){
+            console.log("You are so friendly, "+myFriend);
+        }
+    }
+}); 

@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'RequireJS',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData RequireJS
+8 silly fetchNamedPackageData RequireJS
+9 silly mapToRegistry name RequireJS
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'RequireJS',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'RequireJS',
+12 silly mapToRegistry   name: 'RequireJS',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/RequireJS
+14 verbose request uri https://registry.npmjs.org/RequireJS
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:06:14
+17 verbose request id 2090dd972e22a2f0
+18 verbose etag W/"58d1374c-c2f0"
+19 verbose lastModified Tue, 21 Mar 2017 14:23:08 GMT
+20 http request GET https://registry.npmjs.org/RequireJS
+21 http 404 https://registry.npmjs.org/RequireJS
+22 verbose headers { 'content-type': 'application/json',
+22 verbose headers   'cache-control': 'max-age=0',
+22 verbose headers   'content-length': '2',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Thu, 25 May 2017 14:05:56 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-fra1236-FRA',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1495721155.479355,VS0,VE751',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304, undefined ]
+24 verbose etag https://registry.npmjs.org/RequireJS from cache
+25 verbose get saving requirejs to C:\Users\User\AppData\Roaming\npm-cache\registry.npmjs.org\RequireJS\.cache.json
+26 verbose correctMkdir C:\Users\User\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly rollbackFailedOptional Starting
+40 silly rollbackFailedOptional Finishing
+41 silly runTopLevelLifecycles Starting
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Refusing to install requirejs as a dependency of itself
+44 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+44 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+44 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+44 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+45 verbose cwd C:\Users\User\My websites\requirejs
+46 error Windows_NT 10.0.14393
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "RequireJS" "--save"
+48 error node v6.3.0
+49 error npm  v3.10.3
+50 error code ENOSELF
+51 error Refusing to install requirejs as a dependency of itself
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
