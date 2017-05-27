@@ -1,4 +1,4 @@
-/*define(function(){
+define(function(){
     var myBoy="Jake";
     return {
         askBoy: function(){
@@ -9,4 +9,4 @@
         }
         
     }
-}); */
+}); 
