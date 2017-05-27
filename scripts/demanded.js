@@ -8,7 +8,7 @@ define(function () {
     var myBabe="Candy";
     return {
         words: function () {
-            return 'Here are: '+myBabe+' and '+peasant;
+            return 'Here are: '+myBabe+' and peasant';
         },
         myBabe:myBabe
     }; 

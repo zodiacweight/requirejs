@@ -1,5 +1,5 @@
-require(['scripts/common', 'scripts/casual', 'scripts/required'], function(common, casual, reqiured){
-    console.log({'common':common, casual:casual});
+require(['scripts/common', 'scripts/casual', 'scripts/demanded'], function(common, casual, demanded){
+    console.log({'common':common, casual:casual, demanded:demanded});
     /*var content=[],
         main = document.querySelector('main'),
         delay = 1000;
